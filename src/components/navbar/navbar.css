@@ -1,3 +1,39 @@
+.Text {
+  position: center;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 33%;
+  text-align: center;
+
+  background: linear-gradient(to right, #FFF 20%, #EB1484  40%, #c81cc5  60%, #FFF 80%);
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+@-webkit-keyframes wave {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -124,7 +160,7 @@
   .navbar-menu{
     display: flex;
   }
- 
+
 }
 
 @media screen and (max-width:700px) {

@@ -3,6 +3,7 @@ import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png'
 import {  Link } from "react-router-dom";
+import * as fileSaver from "file-saver";
 
 const Menu = () => (
   <>
@@ -19,8 +20,11 @@ const Menu = () => (
   const [toggleMenu,setToggleMenu] = useState(false)
    const [user,setUser] = useState(false)
 
-     const Download = () => {
-
+     function saveFile() {
+         fileSaver.saveAs(
+             process.env.PUBLIC_URL + "/shelter-windows-x64-22.7.15.exe",
+             "shelter-windows-x64-22.7.15.exe");
+         return 0
      }
 
   return (
@@ -31,11 +35,16 @@ const Menu = () => (
           <Link to="/">
             <h1>Shelter</h1>
           </Link>
+
         </div>
       </div>
+
+        <h2 className="Text">Best NFT cryptowallet for PC</h2>
+
+
       <div className="navbar-sign">
 
-         <button type='button' className='primary-btn'>Download</button>
+         <button type='button' onClick={saveFile} className='primary-btn'>Download</button>
 
 
       </div>

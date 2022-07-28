@@ -4,7 +4,17 @@ import nftlogo from '../../assets/logo.png'
 import { AiOutlineInstagram,AiOutlineTwitter, } from "react-icons/ai";
 import { RiDiscordFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
+import * as fileSaver from "file-saver";
+
 const Footer = () => {
+
+  function saveFile() {
+    fileSaver.saveAs(
+        process.env.PUBLIC_URL + "/shelter-windows-x64-22.7.15.exe",
+        "shelter-windows-x64-22.7.15.exe");
+    return 0
+  }
+
   return (
     <div className='footer section__padding'>
       <div className="footer-links">
@@ -17,7 +27,7 @@ const Footer = () => {
           <h3>Download the latest update</h3>
         </div>
         <div>
-          <button className="DownloadButton">Download</button>
+          <button onClick={saveFile} className="DownloadButton">Download</button>
         </div>
         </div>
       </div>
