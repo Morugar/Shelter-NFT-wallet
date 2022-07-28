@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-links_logo">
         <div>
           <img className="Logo" src={nftlogo} alt="logo" />
-          <p>shelter.space</p>
+          <p>Shelter</p>
         </div>
         <div>
           <h3>Download the latest update</h3>
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <div>
-        <p> © {(new Date().getFullYear())} shelter.space, Inc. All Rights Reserved</p>
+        <p> © {(new Date().getFullYear())} Shelter, Inc. All Rights Reserved</p>
         </div>
         {/*<div>*/}
         {/*  <AiOutlineInstagram size={25} color='white' className='footer-icon' />*/}

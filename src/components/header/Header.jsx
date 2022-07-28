@@ -277,7 +277,7 @@ const Header = () => {
       <div className="Futures2">
 <section className="Futures">
       <div className="heading_styled__HeadingSecondaryStyled-sc-1v68jda-1 imaOmm"><h1 className="Title">We’ve got you covered</h1>
-        <h3 className="Subtitle">shelter.space has everything you need to use Solana ecosystem</h3></div>
+        <h3 className="Subtitle">Shelter has everything you need to use Solana ecosystem</h3></div>
       <div className="grid grid-cols-1 gap-5 mt-12 md:mt-20 sm:grid-cols-2">
         <section className="home__DetailTile-sc-1jys7ch-2 cclMjN">
           <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="none" viewBox="0 0 72 72">

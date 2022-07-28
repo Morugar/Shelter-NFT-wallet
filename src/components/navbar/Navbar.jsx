@@ -29,7 +29,7 @@ const Menu = () => (
         <div className="navbar-links_logo">
           <img src={logo} alt="logo" />
           <Link to="/">
-            <h1>shelter.space</h1>
+            <h1>Shelter</h1>
           </Link>
         </div>
       </div>
