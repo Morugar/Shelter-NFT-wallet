@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import './item.css'
 import creator from '../../assets/seller2.png'
 import item from '../../assets/item1.png'
@@ -7,7 +7,7 @@ const Item = () => {
 
 
 
-  return( 
+  return(
       <div className='item section__padding'>
         <div className="item-image">
           <img src={item} alt="item" />

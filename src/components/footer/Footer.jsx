@@ -10,42 +10,27 @@ const Footer = () => {
       <div className="footer-links">
         <div className="footer-links_logo">
         <div>
-          <img src={nftlogo} alt="logo" />
-          <p>CryptoKet</p>
+          <img className="Logo" src={nftlogo} alt="logo" />
+          <p>shelter.space</p>
         </div>
         <div>
-          <h3>Get the lastes Updates</h3>
+          <h3>Download the latest update</h3>
         </div>
         <div>
-          <input type="text" placeholder='Your Email' />
-          <button>Email Me!</button>
+          <button className="DownloadButton">Download</button>
         </div>
-        </div>
-        <div className="footer-links_div">
-          <h4>CryptoKet</h4>
-          <p>Explore</p>
-          <p>How it Works</p>
-          <p>Counters</p>
-          <p>Contact Us</p>
-        </div>
-        <div className="footer-links_div">
-          <h4>Support</h4>
-          <p>Help center</p>
-          <p>Terms of service</p>
-          <p>Legal</p>
-          <p>Privacy policy</p>
         </div>
       </div>
       <div className="footer-copyright">
         <div>
-        <p> © {(new Date().getFullYear())} CrpytoKet, Inc. All Rights Reserved</p>
+        <p> © {(new Date().getFullYear())} shelter.space, Inc. All Rights Reserved</p>
         </div>
-        <div>
-          <AiOutlineInstagram size={25} color='white' className='footer-icon' />
-          <AiOutlineTwitter size={25} color='white' className='footer-icon'/>
-          <RiDiscordFill size={25} color='white' className='footer-icon'/>
-          <FaTelegramPlane size={25} color='white'  className='footer-icon' />
-        </div>
+        {/*<div>*/}
+        {/*  <AiOutlineInstagram size={25} color='white' className='footer-icon' />*/}
+        {/*  <AiOutlineTwitter size={25} color='white' className='footer-icon'/>*/}
+        {/*  <RiDiscordFill size={25} color='white' className='footer-icon'/>*/}
+        {/*  <FaTelegramPlane size={25} color='white'  className='footer-icon' />*/}
+        {/*</div>*/}
 
       </div>
     </div>
