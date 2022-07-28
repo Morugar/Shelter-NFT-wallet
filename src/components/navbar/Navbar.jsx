@@ -42,9 +42,7 @@ const Menu = () => (
         <Link to="/register"> 
           <button type='button' className='secondary-btn'>FAQ</button>
         </Link>
-        </>
-      )
-       
+        </>       
 
        
       </div>
