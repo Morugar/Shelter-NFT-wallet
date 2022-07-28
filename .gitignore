@@ -129,3 +129,10 @@ dist
 # IDE
 
 .idea
+
+#build
+
+build
+.build
+.build.*
+build.*
