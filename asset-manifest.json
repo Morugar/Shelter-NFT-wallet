@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2380abe4.css",
+    "main.js": "/static/js/main.91227da8.js",
+    "static/media/nft3.gif": "/static/media/nft3.f67ed44c5580c2c45f4f.gif",
+    "static/media/nft5.png": "/static/media/nft5.1dbd2dcb1f825c319c9f.png",
+    "static/media/nft4.png": "/static/media/nft4.466168ee16481c58dce0.png",
+    "static/media/nft1.png": "/static/media/nft1.f75bffb2c6de1ffb229a.png",
+    "static/media/profile_banner.png": "/static/media/profile_banner.104cc9206e6b6a00bdb0.png",
+    "static/media/background.png": "/static/media/background.67ae7751d52031ca3cba.png",
+    "static/media/item1.png": "/static/media/item1.a954e47c3818dc07809f.png",
+    "static/media/nft6.png": "/static/media/nft6.83f1dfe3c15c37ba9720.png",
+    "static/media/nft8.png": "/static/media/nft8.d17fdc43ffe441bd6c73.png",
+    "static/media/nft2.png": "/static/media/nft2.29fcfcff6a0abb9e6294.png",
+    "static/media/nft7.png": "/static/media/nft7.4570fc7b9d1fd04b349b.png",
+    "static/media/nft10.webp": "/static/media/nft10.be3dda63a4f6ceb6f6c4.webp",
+    "static/media/nft9.png": "/static/media/nft9.cfd2d9cfc9ea2efa6eec.png",
+    "static/media/coin2.png": "/static/media/coin2.e2e03ce64fb099806a2e.png",
+    "static/media/bids1.png": "/static/media/bids1.915c4163f419ea533a67.png",
+    "static/media/bids4.png": "/static/media/bids4.29928c92af9c501896ae.png",
+    "static/media/coin.png": "/static/media/coin.81bba5242c00e5dca182.png",
+    "static/media/bids3.png": "/static/media/bids3.c22ef57bfbda53fc9d6d.png",
+    "static/media/bids8.png": "/static/media/bids8.3027bda8e2231afadf74.png",
+    "static/media/profile.jpg": "/static/media/profile.c7d0f1f20d1be805561c.jpg",
+    "static/media/bids2.png": "/static/media/bids2.dcf1b08c4609c65284e2.png",
+    "static/media/bids7.png": "/static/media/bids7.02981185d801845de534.png",
+    "static/media/bids5.png": "/static/media/bids5.ea0733268793a2e99b15.png",
+    "static/media/bids6.png": "/static/media/bids6.e26d0d0c792347c35ca8.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.2380abe4.css.map": "/static/css/main.2380abe4.css.map",
+    "main.91227da8.js.map": "/static/js/main.91227da8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2380abe4.css",
+    "static/js/main.91227da8.js"
+  ]
+}
