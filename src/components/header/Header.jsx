@@ -13,16 +13,16 @@ import seller7 from '../../assets/seller7.jpg'
 import seller8 from '../../assets/seller8.png'
 import seller9 from '../../assets/seller9.jpg'
 import seller10 from '../../assets/seller10.jpeg'
-import nft1 from '../../assets/nft1.jpeg'
+import nft1 from '../../assets/nft1.png'
 import nft2 from '../../assets/nft2.png'
-import nft3 from '../../assets/nft3.png'
-import nft4 from '../../assets/nft4.jpg'
-import nft5 from '../../assets/nft5.jpg'
-import nft6 from '../../assets/nft6.webp'
+import nft3 from '../../assets/nft3.gif'
+import nft4 from '../../assets/nft4.png'
+import nft5 from '../../assets/nft5.png'
+import nft6 from '../../assets/nft6.png'
 import nft7 from '../../assets/nft7.png'
 import nft8 from '../../assets/nft8.png'
-import nft9 from '../../assets/nft9.jpg'
-import nft10 from '../../assets/nft10.jpg'
+import nft9 from '../../assets/nft9.png'
+import nft10 from '../../assets/nft10.webp'
 import verify from '../../assets/verify.png'
 import coin from '../../assets/coin.png'
 import coin2 from '../../assets/coin2.png'
@@ -197,7 +197,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft1} alt="" />
             </div>
-            <p className='slider-card-name'>Picasso</p>
+            <p className='slider-card-name'>Froots</p>
 
           </div>
           <div className='slider-card'>
@@ -205,7 +205,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft2} alt="" />
             </div>
-            <p className='slider-card-name'>Cyberpunk Vision</p>
+            <p className='slider-card-name'>Degen Fat Cats</p>
 
           </div>
           <div className='slider-card'>
@@ -213,7 +213,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft3} alt="" />
             </div>
-            <p className='slider-card-name'>Polygon Girl</p>
+            <p className='slider-card-name'>Monkai</p>
 
           </div>
           <div className='slider-card'>
@@ -221,7 +221,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft4} alt="" />
             </div>
-            <p className='slider-card-name'>Error Woman</p>
+            <p className='slider-card-name'>DeGods</p>
 
           </div>
           <div className='slider-card'>
@@ -229,7 +229,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft5} alt="" />
             </div>
-            <p className='slider-card-name'>Many Faces</p>
+            <p className='slider-card-name'>Degen Sweepers</p>
 
           </div>
           <div className='slider-card'>
@@ -237,7 +237,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft6} alt="" />
             </div>
-            <p className='slider-card-name'>Nyan Cat</p>
+            <p className='slider-card-name'>KikiVerse</p>
 
           </div>
           <div className='slider-card'>
@@ -245,7 +245,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft7} alt="" />
             </div>
-            <p className='slider-card-name'>Bored Ape</p>
+            <p className='slider-card-name'>Okay Bears</p>
 
           </div>
           <div className='slider-card'>
@@ -253,7 +253,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft8} alt="" />
             </div>
-            <p className='slider-card-name'>Cutie</p>
+            <p className='slider-card-name'>Primates</p>
 
           </div>
           <div className='slider-card'>
@@ -261,7 +261,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft9} alt="" />
             </div>
-            <p className='slider-card-name'>Ghostrunner</p>
+            <p className='slider-card-name'>Dust Crash & Coinflip</p>
 
           </div>
           <div className='slider-card'>
@@ -269,8 +269,7 @@ const Header = () => {
             <div className="slider-img">
               <img width="77" height="77" src={nft10} alt="" />
             </div>
-            <p className='slider-card-name'>Human Infinity</p>
-
+            <p className='slider-card-name'>Janken Juveniles</p>
           </div>
         </Slider>
       </div>
